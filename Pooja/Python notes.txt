@@ -1,0 +1,48 @@
+
+Python is an interprited & dynamically typed language
+Large standard library - predifined things or process
+
+
+Python Tokens:-
+Identifiers- Identity of object
+datatype   - 
+keywords   - predefined words
+operators
+seperators - ; , . () {}[]
+variables  
+
+Process of compiler & Interpreter
+1. compilation - check Error
+2. run
+
+compiler- can not run if there is error in any line
+Interpreter- can run even if there is error in any line
+means give output of other right expression.
+
+design/blueprint/class
+object -real thing
+all data types r object
+
+automatic deletion of object in python using garbage collector
+
+
+operators
+1.arithmatic   10/3=3.333    10**3=1000   10//3=3
+2.assignment "="   num+=10 
+
+ASCII:-American Standard Code for Information Interchange. to convert ASCII value to character 1.ord() 2.chr()
+Unicode:- Universal Character Encoding Standard.
+
+list will store mem location(address) in ordered list not actual value (imp-hence that data used as a object)
+ordered/unmutable - which can't be changable [1,2,3,5,6]
+mutable- which can be changable can add diff data types data[1,2,3,apple]
+duplicates-[1,2,2,5,6]
+list is nothing but an array but it has dynamic memory u can add or removed new data
+but array has fixed size & fixed memory
+
+
+
+list methods
+append()  adds 1 new object at the end of list - append(object)
+insert()  insert value at given position or index, next all values will shift forwards - insert(pos/index, object)
+extend()  adds more new objects at the end of list - its not necessary that it is list or tupples
